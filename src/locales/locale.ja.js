@@ -1,7 +1,7 @@
 const messages = {
     "header": {
         "nav": {
-            "discover": "発見する",
+            "discover": "発見",
             "channels": "チャンネル",
             "find": "検索",
             "talk": "しゃべる"
@@ -67,7 +67,11 @@ const messages = {
         "welcome": "MyGarage.gamesのベータへようこそ！<br />Discordサーバーでバグとフィードバックを報告してください！",
         "support": "もしあなたが私たちをサポートしたり、このサイトのサーバーに資金を提供したいのであれば、PayPalに寄付するか、itch.ioで私たちのゲームを購入することを検討してみてください。MyGarage.gamesを広告や\「プラス・メンバーシップ\」システムから解放しておきたいと考えています。<i>&dash; ローラさん</i>",
         "newestHeader": "新着ゲーム",
-        "popularHeader": "人気のゲーム"
+        "hotThisWeekHeader": "期待のコース",
+        "randomHeader": "お任せ",
+        "popularHeader": "人気のゲーム",
+        "previousPage": "戻る",
+        "nextPage": "次へ"
     },
     "find": {
         "header": "検索",
@@ -272,6 +276,7 @@ const messages = {
             "general": "一般情報",
             "avatar": "アバター",
             "security": "アカウントの安全"
+            "language": "言語"
         },
         "form": {
             "username": "ユーザー名",
@@ -283,9 +288,11 @@ const messages = {
             "email": "メールアドレス",
             "password": "パスワード",
             "passwordAgain": "パスワード (も一度)"
+            "language": "言語"
         },
         "backToProfileButton": "プロファイルに戻る",
         "saveButton": "保存する",
+        "languageNotice": "サイトの翻訳はコミュニティーで作成しました。和訳はKaihatsu（http://kaihat.su）で作成しました。ご興味のある方は、Discordにご参加ください。",
         "snackbar": {
             "success": {
                 "avatarUpdated": "アバターが変更されました。",
